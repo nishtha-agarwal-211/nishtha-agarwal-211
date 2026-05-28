@@ -82,13 +82,13 @@
 ### 📊 GitHub Stats:
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=nishtha-agarwal-211&theme=tokyonight" height="180" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=nishtha-agarwal-211&show_icons=true&theme=tokyonight&hide_border=false&border_radius=6" height="180" alt="GitHub Stats" />
   &nbsp;&nbsp;
   <img src="https://streak-stats.demolab.com?user=nishtha-agarwal-211&locale=en&mode=daily&theme=tokyonight&hide_border=false&border_radius=6" height="180" alt="GitHub Streak" />
 </div>
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nishtha-agarwal-211&theme=tokyonight" height="180" alt="Most Used Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nishtha-agarwal-211&layout=compact&theme=tokyonight&hide_border=false&border_radius=6" height="180" alt="Most Used Languages" />
 </div>
 
 ---
