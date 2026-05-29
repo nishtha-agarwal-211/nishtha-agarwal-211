@@ -1,0 +1,52 @@
+name: Update GitHub Stats Cards
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch stats SVGs
+        run: |
+          mkdir -p stats
+
+          # Fetch GitHub Stats card (retry up to 3 times with 30s delay)
+          if curl --retry 3 --retry-delay 30 --retry-all-errors -f \
+            -o stats/github-stats.svg.tmp \
+            "https://github-readme-stats.vercel.app/api?username=nishtha-agarwal-211&show_icons=true&theme=tokyonight&hide_border=false&border_radius=6"; then
+            mv stats/github-stats.svg.tmp stats/github-stats.svg
+            echo "✅ GitHub Stats card updated"
+          else
+            rm -f stats/github-stats.svg.tmp
+            echo "⚠️ Failed to fetch GitHub Stats card, keeping existing file"
+          fi
+
+          # Fetch Top Languages card
+          if curl --retry 3 --retry-delay 30 --retry-all-errors -f \
+            -o stats/top-langs.svg.tmp \
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=nishtha-agarwal-211&layout=compact&theme=tokyonight&hide_border=false&border_radius=6"; then
+            mv stats/top-langs.svg.tmp stats/top-langs.svg
+            echo "✅ Top Languages card updated"
+          else
+            rm -f stats/top-langs.svg.tmp
+            echo "⚠️ Failed to fetch Top Languages card, keeping existing file"
+          fi
+
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add stats/
+          git diff --staged --quiet || (git commit -m "chore: update stats cards" && git push)
