@@ -95,13 +95,13 @@
 
 ### 🌱 Currently Exploring:
 
-| 🔍 Area | 📚 What I'm Learning |
-|---|---|
-| 🗃️ **Vector Databases** | Pinecone, ChromaDB, FAISS for semantic search |
-| ⚡ **FastAPI** | Async APIs, routing, middleware — backend basics |
-| 🤖 **LLM Integrations** | RAG pipelines, tool calling, prompt engineering |
-| 🧩 **DSA & CP** | Advanced data structures, contest strategies |
-| 🧪 **Open Source** | Contributing to AI & backend OSS projects |
+| Area                 | What I'm Learning                                |
+| -------------------- | ------------------------------------------------ |
+| **Vector Databases** | Pinecone, ChromaDB, FAISS for semantic search    |
+| **FastAPI**          | Async APIs, routing, middleware — backend basics |
+| **LLM Integrations** | RAG pipelines, tool calling, prompt engineering  |
+| **DSA & CP**         | Advanced data structures, contest strategies     |
+| **Open Source**      | Contributing to AI & backend OSS projects        |
 
 ---
 
