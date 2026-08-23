@@ -24,6 +24,10 @@ jobs:
         with:
           USERNAME: ${{ github.repository_owner }}
 
+      - name: Fetch Streak Stats
+        run: |
+          curl -s "https://github-readme-streak-stats.herokuapp.com/?user=${{ github.repository_owner }}&theme=tokyonight&hide_border=false&border_radius=6" -o profile-summary-card-output/tokyonight/streak-stats.svg || true
+
       - name: Commit & push
         run: |
           git config user.name "github-actions[bot]"

@@ -84,7 +84,7 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/nishtha-agarwal-211/nishtha-agarwal-211/main/profile-summary-card-output/tokyonight/3-stats.svg" height="180" alt="GitHub Stats" />
   &nbsp;&nbsp;
-  <img src="https://streak-stats.demolab.com?user=nishtha-agarwal-211&theme=tokyonight&hide_border=false&border_radius=6" height="180" alt="GitHub Streak" />
+  <img src="https://raw.githubusercontent.com/nishtha-agarwal-211/nishtha-agarwal-211/main/profile-summary-card-output/tokyonight/streak-stats.svg" height="180" alt="GitHub Streak" />
 </div>
 
 <div align="center">
