@@ -84,11 +84,13 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/nishtha-agarwal-211/nishtha-agarwal-211/main/profile-summary-card-output/tokyonight/3-stats.svg" height="180" alt="GitHub Stats" />
   &nbsp;&nbsp;
-  <img src="https://streak-stats.demolab.com?user=nishtha-agarwal-211&locale=en&mode=daily&theme=tokyonight&hide_border=false&border_radius=6" height="180" alt="GitHub Streak" />
+  <img src="https://raw.githubusercontent.com/nishtha-agarwal-211/nishtha-agarwal-211/main/profile-summary-card-output/tokyonight/4-productive-time.svg" height="180" alt="Productive Time" />
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/nishtha-agarwal-211/nishtha-agarwal-211/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg" height="180" alt="Most Used Languages" />
+  <img src="https://raw.githubusercontent.com/nishtha-agarwal-211/nishtha-agarwal-211/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg" height="180" alt="Top Languages by Repo" />
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/nishtha-agarwal-211/nishtha-agarwal-211/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg" height="180" alt="Top Languages by Commit" />
 </div>
 
 ---
